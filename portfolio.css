@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background-color: rgb(233, 237, 240);
+}
+
+header{
+    padding: 10px;
+    text-align:center;
+    background-color: rgb(250, 252, 253, 0.884);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align:center;
+    font-style: normal;
+    background-color: rgb(250, 252, 253, 0.884);
+    color: black;
+    height: 60px;
+}
+
+nav a{
+    text-decoration:none;
+}
+
+#opn{
+    margin:10px;
+    padding:10px 25px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    box-shadow: 0 4px 10px rgb(204, 213, 220);
+}
+#opn:hover{
+    background-color: rgb(255, 32, 32);
+    color: black;
+}
+#opn:active{
+    transform: scale(.5);
+}
+
+#illusion{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#live{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+    z-index: 2;
+}
+
+.pbtn{
+    margin:10px;
+    padding:10px 25px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    box-shadow: 0 4px 10px rgb(204, 213, 220);
+}
+.pbtn:hover{
+    background-color: rgb(255, 32, 32);
+    color: #000000;
+}
+.pbtn:active{
+    transform: scale(.5);
+}
+
+#about{
+    text-align:center;
+    padding:80px 20px;
+    background-color: rgb(250, 252, 253, 0.884);
+}
+
+#me{
+    width:250px;
+    border-radius:50%;
+}
+
+#resume{
+    text-align:center;
+    background-color: rgb(250, 252, 253, 0.884);
+}
+
+#res{
+    padding:15px 35px;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+    box-shadow: 0 4px 10px rgb(204, 213, 220);
+}
+#res:hover{
+    background-color: rgb(255, 32, 32);
+    color: #000000;
+}
+#res:active{
+    transform: scale(.5);
+}
+
+
+#skills{
+    text-align:center;
+    padding:80px 20px;
+    background-color: rgb(250, 252, 253, 0.884);
+}
+
+#btn{
+    width:150px;
+    height:50px;
+    margin:10px;
+    border:none;
+    border-radius:20px;
+    box-shadow: 0 4px 10px rgb(204, 213, 220);
+}
+#btn:hover{
+    background-color: black;
+    color: rgba(225, 243, 252, 0.884);
+}
+
+#certificate{
+    text-align: center;
+    padding: 50px 20px;
+    background-color:rgb(250, 252, 253, 0.884) ;
+}
+
+.cer{
+    width: 80%;
+    max-width: 700px;
+    margin: 15px 0;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #f5f5f5;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.cer:hover{
+    background-color: orangered;
+    color: black;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.cer h2{
+    margin-bottom: 10px;
+}
+
+.cer p{
+    color: #555;
+}
+
+#project{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgb(250, 252, 253, 0.884);
+}
+
+.project-card{
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(250, 252, 253, 0.884);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.project-card:hover{
+    background-color: orangered;
+    color: black;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.project-card h2{
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project-card p{
+    color: black;
+    line-height: 1.6;
+}
+
+.project-card button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: rgb(204, 213, 220);
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.project-card button:hover{
+    background: red;
+    color: black;
+}
+
+#contact{
+    text-align:center;
+    padding:80px 20px;
+    background-color: rgb(250, 252, 253, 0.884);
+}
+
+#cont{
+    padding:15px 35px;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+    box-shadow: 0 4px 10px rgb(204, 213, 220);
+}
+#cont:hover{
+    background-color: rgb(255, 32, 32);
+    color: #000000;
+}
+#cont:active{
+    transform: scale(.5);
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+}
