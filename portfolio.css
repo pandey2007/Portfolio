@@ -26,12 +26,12 @@ nav{
     background-color: rgb(250, 252, 253, 0.884);
     color: black;
     height: 60px;
+    padding: 20px;
 }
 
 nav a{
     text-decoration:none;
     padding: 12px 25px;
-    border-radius: 30px;
 }
 
 #opn{
