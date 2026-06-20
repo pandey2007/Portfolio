@@ -26,8 +26,6 @@ nav{
     background-color: rgb(250, 252, 253, 0.884);
     color: black;
     height: 60px;
-    gap: 15px;
-    padding: 15px;
 }
 
 nav a{
