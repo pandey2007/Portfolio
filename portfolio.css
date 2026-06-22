@@ -21,6 +21,8 @@ nav{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    overflow-x: auto;
+    padding: auto;
     text-align:center;
     font-style: normal;
     background-color: rgb(250, 252, 253, 0.884);
@@ -48,6 +50,16 @@ nav a{
     transform: scale(.5);
 }
 
+@media (max-width: 768px){
+    nav {
+        justify-content: flex-start;
+    }
+
+    #opn {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}
 #illusion{
     position: relative;
     width: 100%;
